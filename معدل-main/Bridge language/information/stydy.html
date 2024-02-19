@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<head>
+                        <title>Login</title>
+                        <link rel="stylesheet" href="style.css">
+                        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+                        
+</head>
+
+<body>
+<!--صفحة تسجيل دخول للطالب -->
+                        <header class="header" data-header> <!--- راس الصفحة -->
+                                                <div class="container"> <!-- عنصر للهيدر -->
+                                            
+                                                  <a href="#" class="logo"> <!-- شعار الموقع-->
+                                                    <img src="../images/logolan.jpeg" width="150" height="50" alt="">
+                                                  </a>
+                                            
+                                                  <nav class="navbar" data-navbar> <!--- ازرار التنقل بالصفحة -->
+                                            
+                                                    <div class="wrapper">
+                                                      
+                                            
+                                                      <button class="nav-close-btn" aria-label="close menu" data-nav-toggler><!-- زر إغلاق شريط التنقل -->
+                                                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon> <!--ايقونة الاغلاق -->
+                                                      </button>
+                                                    </div>
+                                            
+                                                    <ul class="navbar-list"> <!--- قائمة شريط التنقل -->
+                                            
+                                                      <li class="navbar-item">
+                                                        <a href="home.html" class="navbar-link" data-nav-link>Home</a> <!--- زر home -->
+                                                      </li>
+                                            
+                                                      <li class="navbar-item">
+                                                        <a href="home.html" class="navbar-link" data-nav-link>About</a><!--- زر التعريف -->
+                                                      </li>
+                                            
+                                                      <li class="navbar-item">
+                                                        <a href="#courses" class="navbar-link" data-nav-link>Trainers</a>  <!---  زر المدربون-->
+                                                      </li>
+                                            
+                                                      <li class="navbar-item">
+                                                        <a href="Curricula.html" class="navbar-link" data-nav-link>Curricula</a> <!--زر المناهج -->
+                                                      </li>
+                                            
+                                                     
+                                            
+                                                    </ul>
+                                            
+                                                  </nav>
+                                            
+                                                  <div class="header-actions"> <!-- أزرار الإجراءات -->
+                                            
+                        
+                                            
+                                                    <a href="Logintr.html" class="btn has-before" > <!-- زر التسجيل -->
+                                                      <span class="span">Log out</span>
+                                            
+                                                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                                    </a>
+                                            
+                                                    <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+                                                      <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+                                                    </button>
+                                            
+                                                  </div>
+                                            
+                                                  
+                                            
+                                                </div>
+                                              </header>
+                                             
+                                              <section class="section hero" >
+                                                <div class="container1">
+                                                  <h1>complete your information</h1>
+                                                  
+                                                  <form action="#" method="post">
+                                                    <label for="languages">select language</label>
+                                                    <select id="languages" name="languages">
+                                                      <option value="english">English</option>
+                                                      <option value="spanish">Spansh</option>
+                                                      <option value="arabic">Arabic</option>
+                                                      
+                                                    </select>
+                                                    
+                                                    <label for="languages">Level </label>
+                                                    <select id="languages" name="languages">
+                                                      <option value="junior">junior</option>
+                                                      <option value="middle">middle</option>
+                                                      <option value="advanced">advanced</option>
+                                                      
+                                                    </select>
+
+                                                    <label for="session">select the session</label>
+                                                    <select id="session" name="session">
+                                                      <option value="design">learn the basics of the english language</option>
+                                                      <option value="coding">learn the basics of the arabic language</option>
+                                                      <option value="review">learn the basics of the spanish language</option>
+                                                      
+                                                    </select>
+                                                    <label for="session">availabe teacher</label>
+                                                    <select id="session" name="session">
+                                                      <option value="design">Mariana Anderson</option>
+                                                      <option value="coding">RICHARD SANCHEZ</option>
+                                                      <option value="review">JAMIE CHASTAIN</option>
+                                                      <option value="review">OLIVIA WILSON</option>
+                                                     
+                                                    </select>
+                                                    <label for="time">choose the time available to you</label>
+                                                    <input type="time" id="time" name="time">
+                                                    
+                                                    <div class="container2">
+                                                                        <h1>availabe times</h1>
+                                                                        
+                                                                        <table>
+                                                                          <thead>
+                                                                            <tr>
+                                                                              <th>day</th>
+                                                                              <th>morning time</th>
+                                                                              <th>evening time</th>
+                                                                            </tr>
+                                                                          </thead>
+                                                                          <tbody>
+                                                                            <tr>
+                                                                              <td>monday</td>
+                                                                              <td>10:00 AM - 12:00 PM</td>
+                                                                              <td>4:00 PM - 6:00 PM</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td>tuesday</td>
+                                                                              <td>9:00 AM - 11:00 AM</td>
+                                                                              <td>3:00 PM - 5:00 PM</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td>thursday</td>
+                                                                              <td>11:30 AM - 1:30 PM</td>
+                                                                              <td>6:00 PM - 8:00 PM</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                              <td>saturday</td>
+                                                                              <td>1:00 PM - 3:00 PM</td>
+                                                                              <td>7:00 PM - 9:00 PM</td>
+                                                                            </tr>
+                                                                          </tbody>
+                                                                        </table>
+                                                                      </div><br>
+                                                    
+                                                   <button class="submit"><a href="../Trainers.html"> book a session</a></button>
+                                                  </form>
+                                                </div>
+                                              </section>
+                                              </body>
+                                              </html>
+                                              
+                                      
+                                      
